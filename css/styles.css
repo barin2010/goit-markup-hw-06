@@ -11,7 +11,9 @@
   --basic-color-icon: #8e8f99;
   --color-focus-footer: #31d0aa;
 }
-@media
+
+
+
 
 ul,
 ol {
@@ -47,8 +49,6 @@ p {
   margin: 0 auto;
   padding: 0 15px;
 }
-
-
 
 .link {
   text-decoration: none;
@@ -86,7 +86,6 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .current::after {
   content: "";
   text-decoration: underline;
@@ -101,12 +100,7 @@ p {
 }
 .current {
   color: var(--hover-color);
-
 }
-
-
-
-
 
 .header-logo {
   color: var(--basic-color-logo);
@@ -138,7 +132,6 @@ p {
   
 } */
 
-
 .header-menu-item::after {
   content: "";
   position: absolute;
@@ -166,7 +159,6 @@ p {
 .address {
   display: flex;
   gap: 40px;
-  
 }
 
 .address-contacts {
@@ -414,7 +406,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 8px;
-  }
+}
 
 /* .team-images-box{
   
@@ -487,10 +479,9 @@ p {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-icon-link:hover,
-.customer-icon-link:focus{
+.customer-icon-link:focus {
   border-color: var(--hover-color);
   color: var(--hover-color);
-  
 }
 .customer-icon-logo {
   fill: currentColor;
@@ -585,7 +576,8 @@ p {
   fill: var(--secondary-white-color);
 }
 
-.footer-subscribe {}
+.footer-subscribe {
+}
 
 .footer-subscribe-phf {
   margin-bottom: 16px;
@@ -594,20 +586,16 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--basic-white-color);
-  
 }
-.footer-subscribe-form{
+.footer-subscribe-form {
   display: flex;
   gap: 24px;
-  
 }
-.footer-subscribe-lable{
+.footer-subscribe-lable {
   /* margin-right: 24px; */
   /* gap: 24px; */
-
-
 }
-.footer-subscribe-input{
+.footer-subscribe-input {
   width: 264px;
   height: 40px;
   border: 1px solid var(--basic-white-color);
@@ -619,13 +607,11 @@ p {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: var(--basic-white-color);
-
-
 }
-.footer-subscribe-input .placeholder{
+.footer-subscribe-input .placeholder {
   color: var(--basic-white-color);
 }
-.footer-subscribe-button{
+.footer-subscribe-button {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -638,11 +624,11 @@ p {
   letter-spacing: 0.04em;
   color: var(--basic-white-color);
   cursor: pointer;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
 }
-.footer-subscribe-svg{
+.footer-subscribe-svg {
   margin-left: 16px;
 }
 /* ---------modal window--------------- */
@@ -654,10 +640,7 @@ p {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-  
-  
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   opacity: 0;
@@ -678,8 +661,6 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* padding: 0 24px; */
   padding: 72px 24px 24px 24px;
-  
- 
 }
 .modal-window-button {
   position: absolute;
@@ -696,7 +677,7 @@ p {
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-window-button:hover,
 .modal-window-button:focus {
@@ -708,23 +689,21 @@ p {
 .modal-button-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-text{
+.modal-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color:var(--primary-black-color);
+  color: var(--primary-black-color);
   margin-bottom: 16px;
-  
 }
 .modal-text-form {
-
 }
-.modal-text-box{
+.modal-text-box {
   margin-bottom: 8px;
 }
-.modal-text-name{
+.modal-text-name {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -732,10 +711,10 @@ p {
   display: block;
   margin-bottom: 4px;
 }
-.modal-text-name-box{
+.modal-text-name-box {
   position: relative;
 }
-.modal-text-username{
+.modal-text-username {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -745,17 +724,13 @@ p {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* border-color: #4D5AE5; */
-  
 }
 .modal-text-username:hover,
-.modal-text-username:focus{
-  border-color: #4D5AE5;
+.modal-text-username:focus {
+  border-color: #4d5ae5;
 }
 
-
-
-
-.madal-name-svg{
+.madal-name-svg {
   position: absolute;
   left: 16px;
   top: 50%;
@@ -763,16 +738,14 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-text-username:focus +.madal-name-svg {
-  fill: #4D5AE5;
+.modal-text-username:focus + .madal-name-svg {
+  fill: #4d5ae5;
 }
 
-
-
-.modal-comments{
+.modal-comments {
   margin-bottom: 16px;
 }
-.text-comments{
+.text-comments {
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -786,67 +759,61 @@ p {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .text-comments:hover,
-.text-comments:focus{
-  border-color: #4D5AE5;
+.text-comments:focus {
+  border-color: #4d5ae5;
 }
 
-
-.modai-check{
+.modai-check {
   margin-bottom: 24px;
 }
-.modai-check-input{
-
+.modai-check-input {
 }
 .modai-check-input:hover .text-comments {
-  border-color: #4D5AE5;
+  border-color: #4d5ae5;
 }
 
-.check-input-lable{
+.check-input-lable {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  border-color: #4D5AE5;
-  color:var(--basic-color-icon)
-
+  border-color: #4d5ae5;
+  color: var(--basic-color-icon);
 }
 .check-input-lable:focus {
-  border-color: #4D5AE5;
+  border-color: #4d5ae5;
 }
 
-.check-input-link{
-  
-  color:var(--basic-color-logo);
-
+.check-input-link {
+  color: var(--basic-color-logo);
 }
-.modai-check-input:checked +.check-input-lable .modal-check-spun{
-  background-color:var(--hover-color);
+.modai-check-input:checked + .check-input-lable .modal-check-spun {
+  background-color: var(--hover-color);
   border: none;
-  fill:var(--secondary-white-color);
+  fill: var(--secondary-white-color);
 }
-.modal-check-spun{
-   width: 16px;
+.modal-check-spun {
+  width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
-
 }
-.modal-check-spun:hover{
-  border-color:var(--basic-color-logo);
+.modal-check-spun:hover {
+  border-color: var(--basic-color-logo);
 }
-.modal-check-svg{
-  
+.modal-check-svg {
 }
-.modai-check-button{
-  display:block;
+.modai-check-button {
+  display: block;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -856,18 +823,13 @@ p {
   letter-spacing: 0.04em;
   color: var(--basic-white-color);
   cursor: pointer;
-  background-color:var(--basic-color-logo);
+  background-color: var(--basic-color-logo);
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   margin: 0 auto;
-
 }
-
-
-
-
 
 /* ---------------------------------PORTFOLIO----------------------------------------- */
 
@@ -905,9 +867,9 @@ p {
   border: 1px solid var(--border-button-color);
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-description:hover,
@@ -949,13 +911,13 @@ p {
 }
 
 .images-logo:hover,
-.images-logo:focus{
+.images-logo:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .images-logo:hover .concept-images-text,
-.images-logo:focus .concept-images-text{
+.images-logo:focus .concept-images-text {
   transform: translateY(0%);
 }
 
