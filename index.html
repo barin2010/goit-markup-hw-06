@@ -63,9 +63,82 @@
             </li>
           </ul>
         </address>
-        <svg class="mobil-menu" width="32" height="22">
-          <use href="./images/icons.svg#menu"></use>
-        </svg>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="mobil-menu" width="32" height="22">
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- =====mob-menu====== -->
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button type="button" class="menu-close-btn" data-menu-close>
+            <svg class="cross-menu" width="24" height="24">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+          <ul class="mobil-menu-list link">
+            <li class="mobil-menu-item">
+              <a class="mobil-menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="mobil-menu-item">
+              <a class="mobil-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobil-menu-item">
+              <a class="mobil-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <address class="mob-address">
+          <ul class="mob-address-list list">
+            <li class="mob-address-contacts link">
+              <a
+                class="mob-address-contacts-mail tel link"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mob-address-contacts link">
+              <a
+                class="mob-address-contacts-mail mail link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mob-box-icon list">
+          <li class="mob-social-icon">
+            <a class="mob-social-icon-link" href="">
+              <svg class="mob-social-icon-svg" width="16" height="16">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-icon">
+            <a class="mob-social-icon-link" href="">
+              <svg class="mob-social-icon-svg" width="16" height="16">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-icon">
+            <a class="mob-social-icon-link" href="">
+              <svg class="mob-social-icon-svg" width="16" height="16">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-social-icon">
+            <a class="mob-social-icon-link" href="">
+              <svg class="mob-social-icon-svg" width="16" height="16">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <!-- main ---------------------------------------------------------->
@@ -142,13 +215,28 @@
           <h2 class="doing-possibilities">What are we doing</h2>
           <ul class="doing-list list">
             <li class="doing-images">
-              <img src="./images/img1.jpg" width="360" alt="computer" />
+              <img
+                srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+                src="./images/img1.jpg"
+                width="360"
+                alt="computer"
+              />
             </li>
             <li class="doing-images">
-              <img src="./images/img2.jpg" width="360" alt="tel" />
+              <img
+                srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+                src="./images/img2.jpg"
+                width="360"
+                alt="tel"
+              />
             </li>
             <li class="doing-images">
-              <img src="./images/img3.jpg" width="360" alt="hand" />
+              <img
+                srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                src="./images/img3.jpg"
+                width="360"
+                alt="hand"
+              />
             </li>
           </ul>
         </div>
@@ -160,7 +248,12 @@
           <h2 class="team-team">Our Team</h2>
           <ul class="team-list list">
             <li class="team-images">
-              <img src="./images/img4.jpg" width="264" alt="Mark" />
+              <img
+                srcset="./images/img4.jpg 1x, ./images/img4-2x.jpg 2x"
+                src="./images/img4.jpg"
+                width="264"
+                alt="Mark"
+              />
               <div class="box-team-description">
                 <h3 class="team-family">Mark Guerrero</h3>
                 <p class="team-description">Product Designer</p>
@@ -198,7 +291,12 @@
               </div>
             </li>
             <li class="team-images">
-              <img src="./images/img5.jpg" width="264" alt="Tom" />
+              <img
+                srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg 2x"
+                src="./images/img5.jpg"
+                width="264"
+                alt="Tom"
+              />
               <div class="box-team-description">
                 <h3 class="team-family">Tom Ford</h3>
                 <p class="team-description">Frontend Developer</p>
@@ -236,7 +334,12 @@
               </div>
             </li>
             <li class="team-images">
-              <img src="./images/img6.jpg" width="264" alt="Camila" />
+              <img
+                srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x"
+                src="./images/img6.jpg"
+                width="264"
+                alt="Camila"
+              />
               <div class="box-team-description">
                 <h3 class="team-family">Camila Garcia</h3>
                 <p class="team-description">Marketing</p>
@@ -274,7 +377,12 @@
               </div>
             </li>
             <li class="team-images">
-              <img src="./images/img7.jpg" width="264" alt="Daniel" />
+              <img
+                srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x"
+                src="./images/img7.jpg"
+                width="264"
+                alt="Daniel"
+              />
               <div class="box-team-description">
                 <h3 class="team-family">Daniel Wilson</h3>
                 <p class="team-description">UI Designer</p>
@@ -521,5 +629,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
