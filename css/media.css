@@ -411,10 +411,13 @@ display: flex;
 flex-wrap: wrap;
 gap: 24px;
 row-gap: 72px;
+justify-content: center;
 }
 .strategy-page{
 max-width: calc((100% - 24px) / 2);
+max-width: 356px;
 }
+
 .strategy-page-item{
     display: inline-block;
     font-size: 36px;
@@ -467,10 +470,10 @@ width: calc((100% - 48px) / 3);
 .footer-box{
 padding: 96px 0;
 width: 100%;
+max-width: 554px;
 }
 .footer-box-mini{
 display: flex;
-margin-left: 108px;
 margin-bottom: 72px;
 }
 .footer-box-logo{
@@ -480,7 +483,7 @@ margin-right: 24px;
 margin-top: 0;
 }
 .footer-subscribe{
-margin-left: 108px;
+
 }
 .footer-subscribe-phf {
 display: flex;
@@ -580,11 +583,23 @@ gap: 24px;
 }
 .strategy-page {
 width: calc((100% - 72px) / 4);
+max-width: 264px;
 }
 .strategy-page-item{
 font-size: 20px;
 }
 /* ====doing==== */
+.what-are-we-doing {
+padding-top: 0;
+}
+.doing-list{
+justify-content: center;
+}
+
+.doing-images{
+    max-width: 360px;
+    max-height: 300px;
+}
 
 /* ======our team==== */
 .team {
