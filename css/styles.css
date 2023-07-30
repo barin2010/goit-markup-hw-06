@@ -91,7 +91,7 @@ a{
 .header-menu {
   display: flex;
   align-items: center;
-  height: 72px;
+  /* height: 72px; */
 }
 
 .header-menu-item {
@@ -388,7 +388,7 @@ max-width: 1440px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .team-list {
