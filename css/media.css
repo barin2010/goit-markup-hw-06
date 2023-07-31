@@ -254,6 +254,7 @@ width: 100%;}
 
 .strategy-page-item{
 font-size: 36px;
+line-height: 1.11;
 display: flex;
 justify-content: center;
 }
@@ -354,7 +355,7 @@ padding: 24px 16px;
 
 
 
- @media (min-width: 768px) {
+ /* @media (min-width: 768px) {
 .container {
 max-width: 1157px;
 }
@@ -365,7 +366,7 @@ gap: 24px;
 row-gap: 64px;
 justify-content: center;
 }
- }
+ } */
 
 
  
@@ -378,7 +379,7 @@ justify-content: center;
 
 @media  (min-width: 768px){
 .container {
-max-width: 1157px;
+max-width: 768px;
 padding-top: 24px;}
 /* =======header======= */
 .mob-menu{
@@ -388,7 +389,10 @@ padding-top: 24px;}
 display: none;}
 
 .header-menu{
-/* padding: 16px 0; */
+padding: 24px 0;
+}
+.div-header-menu{
+    padding: 0 15px;
 }
 .address {
 display: flex;
@@ -396,7 +400,9 @@ flex-direction: column;
 gap:12px;
 }
 .address-contacts{
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 1.16;
+        
 }
 .menu-open-btn{
 display: none;
@@ -453,6 +459,7 @@ max-width: 356px;
 .strategy-page-item{
     display: inline-block;
     font-size: 36px;
+    line-height: 1.11;
 }
 .strategy-icon{
 display: none;
@@ -462,7 +469,7 @@ display: none;
 /* ======our team==== */
 .our-team{
     padding: 0;
-    max-width: 584px;
+    max-width: 768px;
 }
 .team {
 padding: 96px 0;
@@ -472,6 +479,12 @@ background: var(--cloud, #F4F4FD);
 .team-team {
 margin: 0 auto;
 margin-bottom: 72px;
+}
+.team-list{
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+justify-content: center;
 }
 
 .team-box-icon{
@@ -554,8 +567,11 @@ max-height: 72px;
 }
 
 .div-header-menu{
-padding:24px 0 ;
+padding:0 15px;
 }
+.header-menu{
+
+padding: 24px 0;}
 .address{
 display: flex;
 flex-direction: row;
@@ -602,7 +618,7 @@ margin-top: 48px;
  padding: 120px 0;
 }
 .strategy-item {
-    padding: 0;
+    padding: 0 15px;
 
   }
 .strategy-icon {
@@ -624,6 +640,7 @@ max-width: 264px;
 }
 .strategy-page-item{
 font-size: 20px;
+line-height: 1.2;
 }
 /* ====doing==== */
 .what-are-we-doing {
@@ -644,6 +661,9 @@ justify-content: center;
     padding: 120px 0;
     border: none;
     box-shadow: none;
+    }
+    .our-team{
+    padding: 0 15px;
     }
 .team-images{
 flex-basis: calc((100% - 72px) / 4);
